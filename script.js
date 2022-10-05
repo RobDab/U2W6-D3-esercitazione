@@ -1,7 +1,7 @@
 function showImg(){
-    let image = document.getElementById('paga_pegno')
+    let image = document.getElementById('image_div')
     console.log(image)
-    image.removeAttribute('id')
+    
     image.classList.toggle('img-show')
 }
 

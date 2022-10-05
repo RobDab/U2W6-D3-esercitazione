@@ -12,7 +12,7 @@
   color: rgb(228, 228, 228);
 }
 
-#paga_pegno {
+.paga_pegno {
   display: none;
 }
 
