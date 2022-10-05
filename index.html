@@ -9,6 +9,23 @@
     <title>Document</title>
   </head>
   <body>
+    <header>
+      <div class="row d-flex justify-content-around p-3" id="banner">
+        <div class="col-5 alig-center"><p class="text-dark fw-bold fs-2 mb-0">Project</p></div>
+        <div class="col-5 row py-1 gap-3">
+          <button type="button" class="col btn btn-light" onclick="changeTheme()">Light</button>
+          <button type="button" class="col btn btn-dark" onclick="changeTheme()">Dark</button>
+        </div>
+      </div>
+    </header>
+    <div class="container text-center">
+      <button class="mt-3 mb-3 btn border-bottom border-3" onclick="showImg()" id="img_button">Show image</button>
+      <div class="text-center" id="paga_pegno">
+        <img src="https://static3.depositphotos.com/1000746/163/i/600/depositphotos_1634774-stock-photo-woman-hand-ok-sign.jpg" class="rounded w-50" alt="paga pegno" id="paga_pegno-img" />
+        <p class="text-center fw-bolder">PAGA PEGNO!</p>
+      </div>
+    </div>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

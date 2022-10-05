@@ -1,3 +1,25 @@
-div {
-  background-color: orange;
+#banner {
+  background-color: rgb(201, 123, 28);
+}
+
+.body_light {
+  background-color: rgb(228, 228, 228);
+  color: rgb(57, 57, 57);
+}
+
+.body_dark {
+  background-color: rgb(57, 57, 57);
+  color: rgb(228, 228, 228);
+}
+
+#paga_pegno {
+  display: none;
+}
+
+.img-show {
+  display: block;
+}
+
+.img_button-dark {
+  background-color: rgb(228, 228, 228);
 }
