@@ -1,0 +1,23 @@
+{
+  "name": "u2w6-d3-esercitazione",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --no-source-map ./assets/style.scss ./assets/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobDab/U2W6-D3-esercitazione.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobDab/U2W6-D3-esercitazione/issues"
+  },
+  "homepage": "https://github.com/RobDab/U2W6-D3-esercitazione#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
